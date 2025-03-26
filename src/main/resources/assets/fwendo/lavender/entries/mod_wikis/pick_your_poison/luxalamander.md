@@ -1,24 +1,29 @@
 ```json
 {
-  "title": "Blue Frog",
-  "icon": "pickyourpoison:blue_poison_dart_frog_bowl",
+  "title": "Luxalamander Frog",
+  "icon": "pickyourpoison:luxalamander_bowl",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
-    "fwendo:utility/bowl"
+    "fwendo:utility/pick_your_poison/blue",
+    "fwendo:utility/pick_your_poison/crimson",
+    "fwendo:utility/pick_your_poison/orange",
+    "fwendo:utility/pick_your_poison/red",
+    "fwendo:utility/pick_your_poison/golden",
+    "fwendo:utility/pick_your_poison/green"
   ],
   "associated_items": [
-    "pickyourpoison:blue_poison_dart_frog_bowl"
+    "pickyourpoison:luxalamander_bowl"
   ],
-  "ordinal": 1
+  "secret": true,
+  "ordinal": 7
 }
 ```
-Blue Poison Dart Frogs give the **Comatose** effect for 20 seconds.
+The Luxalamander is a rare frog type appearing only **once in 100 spawns** and referencing the main texture artist for this mod, [Luxintrus](https://modrinth.com/user/Luxintrus).
 
 ---
 
-- {blue}Comatose{}
- - Comatose renders the player unable to see or do anything, including pausing the game or opening the inventory until the effect runs out or the player is attacked.
+<entity;pickyourpoison:poison_dart_frog{FrogType:LUXINTRUS}>
 
 ;;;;;
 
- - Being a regenerative sleep however, Comatose will cause the player to gain back some health while under the effect. Additionally, the first damage received by a comatosed player will be negated.
+- Licking or hitting this Poison Dart Frog will anger it into punching your eyes and inflict Blindness for 1 minute. For some mysterious reason, the Blindness effect can also be applied to a poison dart.

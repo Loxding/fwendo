@@ -1,24 +1,24 @@
 ```json
 {
-  "title": "Blue Frog",
-  "icon": "pickyourpoison:blue_poison_dart_frog_bowl",
+  "title": "Orange Frog",
+  "icon": "pickyourpoison:orange_poison_dart_frog_bowl",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
-    "fwendo:utility/bowl"
+    "fwendo:utility/pick_your_poison/orange"
   ],
   "associated_items": [
-    "pickyourpoison:blue_poison_dart_frog_bowl"
+    "pickyourpoison:orange_poison_dart_frog_bowl"
   ],
-  "ordinal": 1
+  "ordinal": 4
 }
 ```
-Blue Poison Dart Frogs give the **Comatose** effect for 20 seconds.
+Orange Poison Dart Frogs will give the **Vulnerability** effect for 30 seconds.
 
 ---
 
-- {blue}Comatose{}
- - Comatose renders the player unable to see or do anything, including pausing the game or opening the inventory until the effect runs out or the player is attacked.
+- {#ff5500}Vulnerability{}
+ - Being the counterpart to Resistance, players will suffer increased damage while under the Vulnerability effect.
 
 ;;;;;
 
- - Being a regenerative sleep however, Comatose will cause the player to gain back some health while under the effect. Additionally, the first damage received by a comatosed player will be negated.
+<entity;pickyourpoison:poison_dart_frog{FrogType:ORANGE}>

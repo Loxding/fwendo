@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "bowl_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["pickyourpoison:blue_poison_dart_frog_bowl"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bowl_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}

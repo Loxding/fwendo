@@ -1,13 +1,10 @@
 ```json
 {
-  "title": "Blue Frog",
-  "icon": "pickyourpoison:blue_poison_dart_frog_bowl",
+  "title": "How to find",
+  "icon": "minecraft:jungle_sapling",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
-    "fwendo:utility/pick_your_poison/blue"
-  ],
-  "associated_items": [
-    "pickyourpoison:blue_poison_dart_frog_bowl"
+    "fwendo:utility/bowl"
   ],
   "ordinal": 1
 }

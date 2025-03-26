@@ -1,24 +1,24 @@
 ```json
 {
-  "title": "Blue Frog",
-  "icon": "pickyourpoison:blue_poison_dart_frog_bowl",
+  "title": "Crimson Frog",
+  "icon": "pickyourpoison:crimson_poison_dart_frog_bowl",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
-    "fwendo:utility/bowl"
+    "fwendo:utility/pick_your_poison/crimson"
   ],
   "associated_items": [
-    "pickyourpoison:blue_poison_dart_frog_bowl"
+    "pickyourpoison:crimson_poison_dart_frog_bowl"
   ],
-  "ordinal": 1
+  "ordinal": 5
 }
 ```
-Blue Poison Dart Frogs give the **Comatose** effect for 20 seconds.
+Crimson Poison Dart Frogs give the **Torpor** effect for 30 seconds.
 
 ---
 
-- {blue}Comatose{}
- - Comatose renders the player unable to see or do anything, including pausing the game or opening the inventory until the effect runs out or the player is attacked.
+- {#ff005d}Torpor{}
+ - Torpor blocks all health regeneration but slowly refills the hunger bar while the effect lasts.
 
 ;;;;;
 
- - Being a regenerative sleep however, Comatose will cause the player to gain back some health while under the effect. Additionally, the first damage received by a comatosed player will be negated.
+<entity;pickyourpoison:poison_dart_frog{FrogType:CRIMSON}>
