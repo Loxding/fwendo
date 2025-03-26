@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "bowl_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["minecraft:bowl"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bowl_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "name_tag_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["minecraft:name_tag"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "name_tag_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}
