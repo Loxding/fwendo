@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fwendo",
+	"version": "${version}",
+	"name": "Fwendo",
+	"description": "A simple mod, designed to help new players understand the Fwendo modpack",
+	"authors": [
+		"Loxding"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fwendo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.loxding.fwendo.Fwendo"
+		],
+		"fabric-datagen": [
+			"com.loxding.fwendo.FwendoDataGenerator"
+		]
+	},
+	"mixins": [
+		"fwendo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

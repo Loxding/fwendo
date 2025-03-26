@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "lilypad_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["minecraft:lily_pad"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lilypad_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}

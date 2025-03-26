@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "amount": 1,
+  "icon": "fwendo:gui/slots/wiki",
+  "drop_rule": "keep"
+}

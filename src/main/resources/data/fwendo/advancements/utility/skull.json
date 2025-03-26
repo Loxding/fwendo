@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "head_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:skeleton_skull",
+                            "minecraft:wither_skeleton_skull",
+                            "minecraft:player_head",
+                            "minecraft:zombie_head",
+                            "minecraft:creeper_head",
+                            "minecraft:piglin_head"
+                            ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "head_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}
