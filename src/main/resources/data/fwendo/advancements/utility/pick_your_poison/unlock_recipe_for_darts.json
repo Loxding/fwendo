@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "item_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "minecraft:iron_nugget",
+                            "minecraft:bamboo",
+                            "minecraft:feather"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "item_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root",
+    "rewards": {
+        "recipes": [
+            "pickyourpoison:throwing_dart"
+        ]
+    }
+}
