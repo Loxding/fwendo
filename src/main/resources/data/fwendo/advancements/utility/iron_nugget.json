@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "nugget_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["minecraft:iron_nugget"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nugget_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}
