@@ -12,7 +12,7 @@
     "fwendo:utility/pick_your_poison/red",
     "fwendo:utility/pick_your_poison/golden",
     "fwendo:utility/pick_your_poison/green",
-    "fwendo:utility/pick_your_poison/Luxalamander"
+    "fwendo:utility/pick_your_poison/luxalamander"
   ],
   "associated_items": [
     "pickyourpoison:rana_bowl"

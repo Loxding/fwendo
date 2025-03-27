@@ -1,25 +1,24 @@
 ```json
 {
-  "title": "How to find",
+  "title": "How to find frogs",
   "icon": "minecraft:jungle_sapling",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
     "fwendo:utility/bowl"
   ],
-  "ordinal": 1
+  "ordinal": 9
 }
 ```
-Blue Poison Dart Frogs give the **Comatose** effect for 20 seconds.
-
----
-
-- {blue}Comatose{}
- - Comatose renders the player unable to see or do anything, including pausing the game or opening the inventory until the effect runs out or the player is attacked.
+Poison Dart Frogs can be found spawning in 7 different types in the various jungle variants. They can be picked up by using a bowl on them and will give the player their respective effect when hit or licked.
 
 ;;;;;
 
- - Being a regenerative sleep however, Comatose will cause the player to gain back some health while under the effect. Additionally, the first damage received by a comatosed player will be negated.
+Licking a Poison Dart Frog can be done by “eating” the picked up version and will not consume the frog. You can not lick a Poison Dart Frog while you have its effect and the frogs themselves are immune to their effects.
 
----
+;;;;;
 
-<entity;pickyourpoison:poison_dart_frog{FrogType:BLUE}>
+Putting a picked up Poison Dart Frog back down requires holding <keybind;key.sneak> and using <keybind;key.use> at the same time.
+
+;;;;;
+
+<structure;fwendo:frog_jungle>

@@ -1,23 +1,17 @@
 {
   "keys": {
-    "c": "minecraft:iron_block",
-    "s": "minecraft:carved_pumpkin"
+    "i": "minecraft:iron_block",
+    "p": "minecraft:carved_pumpkin"
   },
   "layers": [
     [
-      "_____",
-      "__c__",
-      "_____"
+      " i "
     ],
     [
-      "_____",
-      "_ccc_",
-      "_____"
+      "iii"
     ],
     [
-      "_____",
-      "__s__",
-      "_____"
+      " p "
     ]
   ]
 }

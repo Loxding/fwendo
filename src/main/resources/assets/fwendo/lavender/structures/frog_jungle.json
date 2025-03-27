@@ -1,0 +1,107 @@
+{
+  "keys": {
+    "c": "minecraft:grass_block",
+    "s": "minecraft:grass",
+    "u": "minecraft:mossy_cobblestone_slab[type=bottom]",
+    "e": "minecraft:mossy_cobblestone",
+    "t": "minecraft:vine[west=true]",
+    "l": "minecraft:vine[north=true]",
+    "b": "minecraft:jungle_log",
+    "w": "minecraft:cocoa[facing=north,age=2]",
+    "a": "minecraft:jungle_leaves",
+    "i": "minecraft:dirt",
+    "anchor": "minecraft:grass_block"
+  },
+  "layers": [
+    [
+      " ccccc ",
+      "ccccccc",
+      "cciciic",
+      "ccc#iic",
+      "cccccic",
+      "ccccccc",
+      " ccccc "
+    ],
+    [
+      " __s__ ",
+      "___s___",
+      "__btee_",
+      "_s_sue_",
+      "___s_us",
+      "____s_s",
+      " ___s_ "
+    ],
+    [
+      " _____ ",
+      "_______",
+      "__bt___",
+      "__w____",
+      "_______",
+      "_______",
+      " _____ "
+    ],
+    [
+      " _____ ",
+      "_______",
+      "__bt___",
+      "__l____",
+      "_______",
+      "_______",
+      " _____ "
+    ],
+    [
+      " _____ ",
+      "_______",
+      "__bt___",
+      "__l____",
+      "_______",
+      "_______",
+      " _____ "
+    ],
+    [
+      " _____ ",
+      "_______",
+      "__b____",
+      "_______",
+      "_______",
+      "_______",
+      " _____ "
+    ],
+    [
+      "aaaa__ ",
+      "aaaaa__",
+      "aabaa__",
+      "aaaaa__",
+      "aaaa___",
+      "_______",
+      " _____ "
+    ],
+    [
+      "_aaaa_ ",
+      "aaaaa__",
+      "aabaa__",
+      "aaaaa__",
+      "_aaaa__",
+      "_______",
+      " _____ "
+    ],
+    [
+      " _____ ",
+      "__a____",
+      "_aba___",
+      "_aaa___",
+      "_______",
+      "_______",
+      " _____ "
+    ],
+    [
+      " _____ ",
+      "__a____",
+      "_aaa___",
+      "__a____",
+      "_______",
+      "_______",
+      " _____ "
+    ]
+  ]
+}
