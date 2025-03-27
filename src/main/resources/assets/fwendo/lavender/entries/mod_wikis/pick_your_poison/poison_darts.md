@@ -4,7 +4,7 @@
   "icon": "pickyourpoison:throwing_dart",
   "category": "fwendo:pick_your_poison_category",
   "required_advancements": [
-    "fwendo:utility/pick_your_poison/unlock_recipe_for_darts"
+    "fwendo:recipes/pick_your_poison/throwing_dart"
   ],
   "associated_items": [
     

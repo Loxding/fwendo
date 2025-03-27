@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "emerald_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "minecraft:emerald"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "emerald_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root",
+    "rewards": {
+        "recipes": [
+            "advancementframes:advancement_frame"
+        ]
+    }
+}

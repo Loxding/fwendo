@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "quartz_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:quartz"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "quartz_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root",
+    "rewards": {
+        "recipes": [
+            "advancementframes:stat_frame"
+        ]
+    }
+}
