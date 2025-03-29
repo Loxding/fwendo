@@ -4,7 +4,11 @@ import com.loxding.fwendo.item.ModItems;
 import io.wispforest.lavender.book.LavenderBookItem;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.Item;
+import net.minecraft.resource.ResourcePack;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,5 +30,17 @@ public class Fwendo implements ModInitializer {
 		// Proceed with mild caution.
 		LOGGER.info("Ello Fwendo's");
 		ModItems.registerModItems();
+		FabricLoader.getInstance().getModContainer("fwendo").ifPresent(modContainer -> {
+			ResourceManagerHelper.registerBuiltinResourcePack(
+					new Identifier("fwendo", "iwde"), // Adjusted to match your mod's ID
+					modContainer,
+					"IWDE Built-in Resource Pack",
+					ResourcePackActivationType.NORMAL // Change to ALWAYS_ENABLED to auto-enable
+			);
+		});
+
+	}
+	public static Identifier locate(String path) {
+		return new Identifier(path);
 	}
 }
