@@ -1,19 +1,14 @@
 package com.loxding.fwendo;
 
 import com.loxding.fwendo.item.ModItems;
-import io.wispforest.lavender.book.LavenderBookItem;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.item.Item;
-import net.minecraft.resource.ResourcePack;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import static io.wispforest.lavender.Lavender.id;
 
 public class Fwendo implements ModInitializer {
 	public static final String MOD_ID = "fwendo";
