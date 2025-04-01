@@ -30,7 +30,7 @@ public class Fwendo implements ModInitializer {
 					new Identifier("fwendo", "iwde"), // Adjusted to match your mod's ID
 					modContainer,
 					"IWDE Built-in Resource Pack",
-					ResourcePackActivationType.NORMAL // Change to ALWAYS_ENABLED to auto-enable
+					ResourcePackActivationType.ALWAYS_ENABLED // Change to ALWAYS_ENABLED to auto-enable
 			);
 		});
 
