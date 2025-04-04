@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "amarite_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "amarite:amarite_shard"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_ingot_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "amarite_collected",
+            "gold_ingot_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root",
+    "rewards": {
+        "recipes": [
+            "amarite:amarite_disc"
+        ]
+    }
+}

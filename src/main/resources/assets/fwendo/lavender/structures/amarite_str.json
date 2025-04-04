@@ -1,0 +1,24 @@
+{
+  "keys": {
+    "a": "minecraft:budding_amethyst",
+    "b": "minecraft:magma_block",
+    "c": "minecraft:raw_gold_block"
+  },
+  "layers": [
+    [
+      "   ",
+      " b ",
+      "   "
+    ],
+    [
+      " c ",
+      "cac",
+      " c "
+    ],
+    [
+      "   ",
+      " _ ",
+      "   "
+    ]
+  ]
+}
