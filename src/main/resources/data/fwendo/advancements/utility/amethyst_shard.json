@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "amethyst_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":["minecraft:amethyst_shard"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "amethyst_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root"
+}

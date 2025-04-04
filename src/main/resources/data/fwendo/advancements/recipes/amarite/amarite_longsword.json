@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "amarite_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "amarite:amarite_block"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_block_collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "minecraft:gold_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "amarite_collected",
+            "gold_block_collected"
+        ]
+    ],
+    "parent": "fwendo:utility/root",
+    "rewards": {
+        "recipes": [
+            "amarite:amarite_longsword"
+        ]
+    }
+}
