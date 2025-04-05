@@ -1,0 +1,47 @@
+{
+  "parent": "fwendo:utility/root",
+  "criteria": {
+    "has_item_enchanted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amarite:amarite_longsword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "amarite:double_dash"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "has_enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "enchantments": [],
+            "stored_enchantments": [
+              {
+                "enchantment": "amarite:double_dash"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_enchanted",
+      "has_enchanted_book"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

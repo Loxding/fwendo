@@ -4,10 +4,7 @@
   "icon": "amarite:amarite_longsword",
   "category": "fwendo:amarite_category",
   "required_advancements": [
-    "fwendo:recipes/amarite/amarite_longsword"
-  ],
-  "associated_items": [
-    "amarite:amarite_longsword"
+    "fwendo:utility/amarite/double_dash"
   ],
   "ordinal": 3
 }
