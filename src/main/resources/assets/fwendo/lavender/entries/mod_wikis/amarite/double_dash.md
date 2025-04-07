@@ -1,7 +1,7 @@
 ```json
 {
-  "title": "Amarite Shards",
-  "icon": "amarite:amarite_longsword",
+  "title": "Double Dash",
+  "icon": "minecraft:enchanted_book{\"StoredEnchantments\":[{\"id\":\"amarite:double_dash\"}]}",
   "category": "fwendo:amarite_category",
   "required_advancements": [
     "fwendo:utility/amarite/double_dash"

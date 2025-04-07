@@ -1,6 +1,6 @@
 ```json
 {
-  "title": "Amarite Shards",
+  "title": "Amarite Longsword",
   "icon": "amarite:amarite_longsword",
   "category": "fwendo:amarite_category",
   "required_advancements": [
@@ -28,4 +28,4 @@ The base sword stats are:
 ;;;;;
 
 there are two enchantments for the %{item.amarite.amarite_longsword}%
-these are %{enchantment.amarite.double_dash}%, and %{enchantment.amarite.accumulate}%
+these are [%{enchantment.amarite.double_dash}%](^fwendo:amarite/double_dash), and [%{enchantment.amarite.accumulate}%](^fwendo:amarite/accumulate)

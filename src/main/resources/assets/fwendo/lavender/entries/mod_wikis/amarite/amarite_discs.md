@@ -1,6 +1,6 @@
 ```json
 {
-  "title": "Amarite Shards",
+  "title": "Amarite Discs",
   "icon": "amarite:amarite_disc",
   "category": "fwendo:amarite_category",
   "required_advancements": [
