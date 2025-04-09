@@ -1,3 +1,7 @@
+0.0.2
+- Testing
+- Hello
+- Fwendo
 
 0.0.1 Test
 - This is the changelog screen!!!
