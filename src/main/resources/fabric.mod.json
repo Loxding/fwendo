@@ -33,5 +33,13 @@
 	},
 	"suggests": {
 		"another-mod": "*"
-	}
+	},
+	"builtins": [
+		{
+			"pack_id": "item_swapper",
+			"description": "Item Swapper",
+			"default_enabled": false
+		}
+	]
+
 }
