@@ -1,6 +1,7 @@
 package com.loxding.fwendo.item;
 
 import com.loxding.fwendo.Fwendo;
+import com.loxding.fwendo.block.ModBlocks;
 import io.wispforest.lavender.book.LavenderBookItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -35,11 +36,15 @@ public class ModItems {
         entries.add(CHEVON);
         entries.add(COOKED_CHEVON);
     }
+    private static void itemGroupBuilding(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.HAZARD_BLOCK);
+    }
 
     public static void registerModItems() {
         Fwendo.LOGGER.info("Registering Mod Items for " + Fwendo.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::itemGroupFunctional);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::itemGroupFoodAndDrink);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::itemGroupBuilding);
     }
 }

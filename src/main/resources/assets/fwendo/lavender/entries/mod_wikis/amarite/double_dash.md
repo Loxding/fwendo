@@ -10,19 +10,4 @@
 }
 ```
 
-The **%{item.amarite.amarite_longsword}%** is the main focus of the mod.
-
----
-
-The base sword stats are:
-> {dark_green}8.5 attack damage      {}
-> {dark_green}1.3 attack speed         {}
-> {blue}+ 0.75 attack Range      {}
-> {blue}+ 1.5 Reach{}
-
----
-
-;;;;;
-
-there are two enchantments for the %{item.amarite.amarite_longsword}%
-these are %{enchantment.amarite.double_dash}%, and %{enchantment.amarite.accumulate}%
+%{enchantment.amarite.double_dash}% Splits the normal dash ability from the sword and turns it into two smaller dashes.

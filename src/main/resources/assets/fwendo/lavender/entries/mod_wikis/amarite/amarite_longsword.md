@@ -27,5 +27,34 @@ The base sword stats are:
 
 ;;;;;
 
+---
+
 there are two enchantments for the %{item.amarite.amarite_longsword}%
 these are [%{enchantment.amarite.double_dash}%](^fwendo:amarite/double_dash), and [%{enchantment.amarite.accumulate}%](^fwendo:amarite/accumulate)
+
+---
+
+press <keybind;key.attack> when holding <keybind;key.use> to launch yourself forward with the sword.
+
+---
+
+;;;;;
+
+---
+
+when holding <keybind;key.use> you take 50% of the damage you normally would.
+
+
+*{gray}Side Note: you only take 50% of the damage if the damage would lower your armor durability.{}*
+
+---
+
+;;;;;
+
+---
+
+<recipe;amarite:amarite_longsword>
+
+---
+
+{white}:D{}

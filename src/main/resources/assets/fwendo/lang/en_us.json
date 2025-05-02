@@ -1,8 +1,12 @@
 {
+  "block.fwendo.hazard_block": "Hazard Block",
+
   "item.fwendo.mod_wikis": "Mod Guide Book",
   "item.fwendo.chevon": "Raw Chevon",
   "item.fwendo.cooked_chevon": "Cooked Chevon",
+
   "trinkets.slot.fwendo.wikislot": "Guide Book",
+
   "structure.fwendo.amarite_str": "Budding Amarite",
   "structure.fwendo.frog_jungle": "Jungle"
 }

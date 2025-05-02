@@ -13,13 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block BORDER_BLOCK = registerBlock("border_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).luminance(7)));
-
-
-
-
-
+    public static final Block HAZARD_BLOCK = registerBlock("hazard_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
