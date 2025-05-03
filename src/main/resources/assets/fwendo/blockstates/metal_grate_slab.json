@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fwendo:block/metal_grate_slab"
+    },
+    "type=double": {
+      "model": "fwendo:block/metal_grate"
+    },
+    "type=top": {
+      "model": "fwendo:block/metal_grate_slab_top"
+    }
+  }
+}

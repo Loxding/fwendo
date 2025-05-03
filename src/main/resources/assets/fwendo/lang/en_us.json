@@ -1,5 +1,8 @@
 {
   "block.fwendo.hazard_block": "Hazard Block",
+  "block.fwendo.metal_grate": "Iron Grate",
+  "block.fwendo.metal_grate_slab": "Iron Grate Slab",
+  "block.fwendo.metal_grate_stairs": "Iron Grate Stairs",
 
   "item.fwendo.mod_wikis": "Mod Guide Book",
   "item.fwendo.chevon": "Raw Chevon",

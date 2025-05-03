@@ -1,0 +1,174 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch"
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend"
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy"
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "x": 180
+    },
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch"
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend"
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_stretch",
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "fwendo:block/metal_grate_stairs_fancy_bend",
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "fwendo:block/metal_grate_stairs_fancy",
+      "x": 180,
+      "y": 180
+    }
+  }
+}

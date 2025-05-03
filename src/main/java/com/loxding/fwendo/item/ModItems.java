@@ -38,6 +38,10 @@ public class ModItems {
     }
     private static void itemGroupBuilding(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.HAZARD_BLOCK);
+        entries.add(ModBlocks.METAL_GRATE);
+        entries.add(ModBlocks.METAL_GRATE_SLAB);
+        entries.add(ModBlocks.METAL_GRATE_STAIRS);
+        entries.add(ModBlocks.METAL_GRATE_STAIRS_FANCY);
     }
 
     public static void registerModItems() {

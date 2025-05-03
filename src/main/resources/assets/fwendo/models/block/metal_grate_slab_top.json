@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fwendo:block/metal_grate",
+    "side": "fwendo:block/metal_grate",
+    "top": "fwendo:block/metal_grate"
+  }
+}
